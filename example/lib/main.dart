@@ -1,4 +1,4 @@
-import 'package:fbs_widget_pack/widgets/buttons/button.dart';
+import 'package:fbs_widget_pack/fbs_widget_pack.dart';
 import 'package:flutter/material.dart';
 
 void main() {
