@@ -1,0 +1,24 @@
+name: example
+description: An example of use of the FB's Widget pack package.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  fbs_widget_pack: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+dependency_overrides:
+  fbs_widget_pack:
+    path: ../
+
+flutter:
+  uses-material-design: true
